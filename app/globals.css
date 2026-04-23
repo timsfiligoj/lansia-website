@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0D070D;
+  --color-bg-soft: #15111A;
+  --color-purple: #7935EE;
+  --color-purple-light: #9D50EB;
+  --color-lilac: #CE95F9;
+  --color-danger: #FF6B6B;
+  --color-text: #FFFFFF;
+  --color-text-muted: rgba(255, 255, 255, 0.7);
+  --color-text-dim: rgba(255, 255, 255, 0.5);
+  --color-card: rgba(255, 255, 255, 0.06);
+  --color-card-border: rgba(255, 255, 255, 0.08);
+
+  --font-kanit: "Kanit", system-ui, sans-serif;
+  --font-inter: "Inter", system-ui, sans-serif;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Smooth scroll on anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Markdown prose styling for /privacy and /terms */
+.prose-lansia {
+  max-width: 72ch;
+  font-family: var(--font-inter);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+.prose-lansia h1 {
+  font-family: var(--font-kanit);
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 1.15;
+  color: var(--color-text);
+  margin: 2rem 0 1rem;
+}
+.prose-lansia h2 {
+  font-family: var(--font-kanit);
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: var(--color-text);
+  margin: 2rem 0 0.75rem;
+}
+.prose-lansia h3 {
+  font-family: var(--font-kanit);
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin: 1.25rem 0 0.5rem;
+}
+.prose-lansia p {
+  margin: 0.75rem 0;
+}
+.prose-lansia ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.75rem 0;
+}
+.prose-lansia ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  margin: 0.75rem 0;
+}
+.prose-lansia li {
+  margin: 0.25rem 0;
+}
+.prose-lansia strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+.prose-lansia a {
+  color: var(--color-lilac);
+  text-decoration: underline;
+  text-decoration-color: rgba(206, 149, 249, 0.4);
+  text-underline-offset: 2px;
+}
+.prose-lansia a:hover {
+  text-decoration-color: var(--color-lilac);
+}
+.prose-lansia blockquote {
+  border-left: 3px solid var(--color-card-border);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: var(--color-text-muted);
+  font-style: normal;
+}
+.prose-lansia blockquote p {
+  margin: 0.25rem 0;
+}
+.prose-lansia hr {
+  border: 0;
+  height: 1px;
+  background: var(--color-card-border);
+  margin: 2rem 0;
+}
+.prose-lansia table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+.prose-lansia th,
+.prose-lansia td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--color-card-border);
+}
+.prose-lansia th {
+  color: var(--color-text);
+  font-weight: 600;
+  background: var(--color-card);
+}
+.prose-lansia code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  background: var(--color-card);
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+}
+
+/* Background gradients used on sections */
+.bg-hero-glow {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(121, 53, 238, 0.22) 0%, rgba(13, 7, 13, 0) 60%),
+    linear-gradient(180deg, #0D070D 0%, #0D070D 100%);
+}
+.bg-section-glow {
+  background:
+    radial-gradient(ellipse at 50% 100%, rgba(121, 53, 238, 0.18) 0%, rgba(13, 7, 13, 0) 70%);
+}
+
+/* Phone mockup frame */
+.phone-shadow {
+  filter: drop-shadow(0 40px 80px rgba(121, 53, 238, 0.25));
+}
