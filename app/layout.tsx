@@ -7,19 +7,32 @@ export const metadata: Metadata = {
     "Five goals a day. One simple ritual. See your habits become proof of progress — streaks, perfect weeks, and the patterns behind your best days.",
   metadataBase: new URL("https://lansia.app"),
   openGraph: {
-    title: "Lansia",
+    title: "Lansia — Five goals, every day",
     description:
-      "Five goals a day. One simple ritual. Show up and see your progress.",
+      "One simple daily ritual. Pay once, use forever — €4.99 Lifetime, no subscription.",
     url: "https://lansia.app",
     siteName: "Lansia",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1024,
+        height: 500,
+        alt: "Lansia — Five goals. Every day.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lansia",
+    title: "Lansia — Five goals, every day",
     description:
-      "Five goals a day. One simple ritual. Show up and see your progress.",
+      "One simple daily ritual. Pay once, use forever — €4.99 Lifetime, no subscription.",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
   },
 };
 
