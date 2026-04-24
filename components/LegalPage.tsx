@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Link from "next/link";
 
-export async function LegalPage({ file }: { file: "privacy.md" | "terms.md" }) {
+export async function LegalPage({ file }: { file: "privacy.md" | "terms.md" | "support.md" }) {
   const filePath = path.join(process.cwd(), "content", file);
   const source = await fs.readFile(filePath, "utf-8");
 
