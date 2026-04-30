@@ -5,7 +5,7 @@ export function StoreBadges({ size = "md" }: { size?: Size }) {
   return (
     <div className="flex flex-wrap items-center gap-3">
       <a
-        href="https://apps.apple.com/app/id000000000"
+        href="https://apps.apple.com/us/app/lansia/id6763288204"
         aria-label="Download on the App Store"
         className="transition hover:opacity-90"
       >
