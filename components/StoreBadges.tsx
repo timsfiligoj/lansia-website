@@ -6,6 +6,8 @@ export function StoreBadges({ size = "md" }: { size?: Size }) {
     <div className="flex flex-wrap items-center gap-3">
       <a
         href="https://apps.apple.com/us/app/lansia/id6763288204"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="Download on the App Store"
         className="transition hover:opacity-90"
       >
@@ -31,6 +33,8 @@ export function StoreBadges({ size = "md" }: { size?: Size }) {
       </a>
       <a
         href="https://play.google.com/store/apps/details?id=app.lansia"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="Get it on Google Play"
         className="transition hover:opacity-90"
       >
