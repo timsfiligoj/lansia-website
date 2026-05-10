@@ -21,7 +21,7 @@ const FEATURES: Feature[] = [
       <PhoneMockup
         src="/screenshots/feature-task.jpg"
         alt="Today's goals with a mix of completed and pending items"
-        className="w-full max-w-[280px]"
+        className="w-full max-w-[210px] sm:max-w-[280px]"
       />
     ),
   },
@@ -36,7 +36,7 @@ const FEATURES: Feature[] = [
         src="/screenshots/feature-stats.png"
         alt="Stats screen with circular progress, streak cards, and heatmaps"
         bare
-        className="w-full max-w-[280px]"
+        className="w-full max-w-[210px] sm:max-w-[280px]"
       />
     ),
   },
@@ -58,7 +58,7 @@ const FEATURES: Feature[] = [
         src="/screenshots/feature-boost.png"
         alt="Daily Boost screen with today's motivational quote"
         bare
-        className="w-full max-w-[280px]"
+        className="w-full max-w-[210px] sm:max-w-[280px]"
       />
     ),
   },
