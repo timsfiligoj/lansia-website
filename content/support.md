@@ -2,7 +2,7 @@
 
 _Last updated: 24 April 2026_
 
-Lansia is built by one person — **Tim Sfiligoj** — and support goes straight to the same inbox.
+Lansia is built by one person, **Tim Sfiligoj**, and support goes straight to the same inbox.
 
 ## Email support
 
@@ -30,13 +30,13 @@ If something went visibly wrong on screen, a screenshot is the single most usefu
 Open the app, go to Settings → **Restore purchase**. This syncs your purchase from your Apple ID or Google account. If it still doesn't restore, email us with the email address you used to sign in.
 
 **I signed in with a different provider (Apple / Google / Email) and now I don't see my old goals.**
-Lansia links accounts by email. If the email matches, your data merges automatically on next sign-in. If they don't match, email us — we can help manually.
+Lansia links accounts by email. If the email matches, your data merges automatically on next sign-in. If they don't match, email us. We can help manually.
 
 **How do I delete my account?**
 Settings → **Delete account**. This immediately removes all your data and signs you out. It cannot be undone.
 
 **Can I get a refund?**
-Refunds for Lifetime Access go through Apple (iOS) or Google Play (Android) — we can't process them directly. Request a refund through your App Store or Play Store account.
+Refunds for Lifetime Access go through Apple (iOS) or Google Play (Android). We can't process them directly. Request a refund through your App Store or Play Store account.
 
 ## Bugs and feature requests
 
@@ -50,4 +50,4 @@ If you want a copy of your data, or have any privacy-related question, write to 
 
 Thanks for using Lansia.
 
-— Tim
+Tim

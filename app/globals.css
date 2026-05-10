@@ -154,3 +154,69 @@ html {
 .phone-shadow {
   filter: drop-shadow(0 40px 80px rgba(121, 53, 238, 0.25));
 }
+
+/* Hero visual — three floating cards */
+.hero-visual .hv-card {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: hv-card-in 0.8s ease-out forwards;
+}
+.hero-visual .hv-card-streak {
+  animation-delay: 0.05s;
+  animation-name: hv-card-in, hv-float-a;
+  animation-duration: 0.8s, 9s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, none;
+  animation-delay: 0.05s, 0.85s;
+}
+.hero-visual .hv-card-goals {
+  animation-name: hv-card-in, hv-float-b;
+  animation-duration: 0.8s, 11s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, none;
+  animation-delay: 0.2s, 1s;
+}
+.hero-visual .hv-card-heatmap {
+  animation-name: hv-card-in, hv-float-c;
+  animation-duration: 0.8s, 10s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards, none;
+  animation-delay: 0.35s, 1.15s;
+}
+@keyframes hv-card-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes hv-float-a {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+@keyframes hv-float-b {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(6px); }
+}
+@keyframes hv-float-c {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); }
+}
+@keyframes hv-cell-in {
+  from { opacity: 0; transform: scale(0.6); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes hv-check-in {
+  from { transform: scale(0.4); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-visual .hv-card,
+  .hero-visual .hv-card * {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

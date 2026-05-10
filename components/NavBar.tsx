@@ -25,7 +25,7 @@ export function NavBar() {
           </a>
           <a
             href="#download"
-            className="rounded-full bg-white/10 px-4 py-2 font-medium text-white transition hover:bg-white/15"
+            className="rounded-full bg-[color:var(--color-purple)] px-4 py-2 font-medium text-white shadow-[0_8px_24px_-8px_rgba(121,53,238,0.7)] transition hover:bg-[color:var(--color-purple-light)]"
           >
             Download
           </a>

@@ -53,10 +53,10 @@ We do not collect: location, contacts, photos, microphone, camera, advertising i
 ## 3. Legal basis (GDPR)
 
 We process personal data on the following legal bases under the EU General Data Protection Regulation:
-- **Contract** — to provide the App you signed up for (Article 6(1)(b))
-- **Consent** — for push notifications, where you grant OS-level permission (Article 6(1)(a))
-- **Legal obligation** — for tax and accounting records of purchases (Article 6(1)(c))
-- **Legitimate interest** — to keep the service working, prevent abuse, and respond to support requests (Article 6(1)(f))
+- **Contract**: to provide the App you signed up for (Article 6(1)(b))
+- **Consent**: for push notifications, where you grant OS-level permission (Article 6(1)(a))
+- **Legal obligation**: for tax and accounting records of purchases (Article 6(1)(c))
+- **Legitimate interest**: to keep the service working, prevent abuse, and respond to support requests (Article 6(1)(f))
 
 ## 4. Who we share data with (subprocessors)
 
@@ -93,7 +93,7 @@ If you are in the EU/EEA, you have the right to:
 - Restrict or object to certain processing
 - Export your data in a portable format
 - Withdraw consent (e.g., disable push notifications) at any time
-- Lodge a complaint with the **Information Commissioner of the Republic of Slovenia (Informacijski pooblaščenec)** — https://www.ip-rs.si
+- Lodge a complaint with the **Information Commissioner of the Republic of Slovenia (Informacijski pooblaščenec)**: https://www.ip-rs.si
 
 To exercise any of these rights, write to **tim@350life.com**. You can also delete your account directly inside the App (Settings → Delete account).
 

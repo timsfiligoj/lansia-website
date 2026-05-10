@@ -7,3 +7,6 @@ next-env.d.ts
 .env*.local
 .DS_Store
 *.pem
+
+# Local backup of original screenshot assets before edits
+public/screenshots/originals/

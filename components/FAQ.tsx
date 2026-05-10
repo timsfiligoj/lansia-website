@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "Why five goals, not fifty?",
-    a: "Because real focus has a limit. When you can pick anything, you pick everything — and finish nothing. The cap is the feature.",
+    a: "Because real focus has a limit. When you can pick anything, you pick everything, and finish nothing. The cap is the feature.",
   },
   {
     q: "What should my goals look like?",
@@ -17,11 +17,11 @@ const FAQS = [
   },
   {
     q: "What if I don't complete a task?",
-    a: "Nobody's perfect. Missed goals are a normal part of the week — Lansia tracks your bounce-back rate so you can see how quickly you recover, not just how often you hit 100%.",
+    a: "Nobody's perfect. Missed goals are a normal part of the week. Lansia tracks your bounce-back rate so you can see how quickly you recover, not just how often you hit 100%.",
   },
   {
     q: "Is Lansia free?",
-    a: "Yes — the free tier gives you three goals a day, today + tomorrow view, and an evening reminder. Lansia Lifetime is a one-time purchase that unlocks five goals a day, the full stats dashboard, and all-time history.",
+    a: "Yes. The free tier gives you three goals a day, today + tomorrow view, and an evening reminder. Lansia Lifetime is a one-time purchase that unlocks five goals a day, the full stats dashboard, and all-time history.",
   },
   {
     q: "Is it really a one-time purchase?",

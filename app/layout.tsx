@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Lansia — Daily goals, real progress",
+  title: "Lansia: Daily goals, real progress",
   description:
-    "Five goals a day. One simple ritual. See your habits become proof of progress — streaks, perfect weeks, and the patterns behind your best days.",
+    "Five goals a day. One simple ritual. See your habits become proof of progress: streaks, perfect weeks, and the patterns behind your best days.",
   metadataBase: new URL("https://lansia.app"),
   openGraph: {
-    title: "Lansia — Five goals, every day",
+    title: "Lansia: Five goals, every day",
     description:
-      "One simple daily ritual. Pay once, use forever — €4.99 Lifetime, no subscription.",
+      "One simple daily ritual. Pay once, use forever. €4.99 Lifetime, no subscription.",
     url: "https://lansia.app",
     siteName: "Lansia",
     locale: "en_US",
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1024,
         height: 500,
-        alt: "Lansia — Five goals. Every day.",
+        alt: "Lansia. Five goals. Every day.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lansia — Five goals, every day",
+    title: "Lansia: Five goals, every day",
     description:
-      "One simple daily ritual. Pay once, use forever — €4.99 Lifetime, no subscription.",
+      "One simple daily ritual. Pay once, use forever. €4.99 Lifetime, no subscription.",
     images: ["/og-image.png"],
   },
   icons: {

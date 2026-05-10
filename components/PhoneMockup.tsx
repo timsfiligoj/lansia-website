@@ -2,19 +2,33 @@
 /**
  * Renders an iPhone-shaped frame around a screenshot.
  *
- * Drop real screenshots into `/public/screenshots/` and pass the filename.
- * Expected aspect: 9:19.5 (iPhone 14/15 Pro). Use PNGs at 1170x2532 or
- * export from the dev client via `xcrun simctl io booted screenshot`.
+ * Drop bare screenshots (1170x2532, no bezel) into `/public/screenshots/` and
+ * pass the filename. For images that already have the device bezel baked in,
+ * pass `bare` to skip the wrapper frame.
  */
 export function PhoneMockup({
   src,
   alt,
   className = "",
+  bare = false,
 }: {
   src?: string;
   alt: string;
   className?: string;
+  bare?: boolean;
 }) {
+  if (bare && src) {
+    return (
+      <div className={`phone-shadow relative mx-auto w-full max-w-[320px] ${className}`}>
+        <img
+          src={src}
+          alt={alt}
+          className="block h-auto w-full"
+        />
+      </div>
+    );
+  }
+
   return (
     <div className={`phone-shadow relative ${className}`}>
       <div className="relative mx-auto aspect-[9/19.5] w-full max-w-[280px] rounded-[2.8rem] border border-white/10 bg-[#0A0A0A] p-2 sm:max-w-[320px]">

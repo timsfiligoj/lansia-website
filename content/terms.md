@@ -47,7 +47,7 @@ Refunds are governed by the policies of the store from which you bought the App:
 - Apple App Store: https://support.apple.com/en-us/HT204084
 - Google Play: https://support.google.com/googleplay/answer/2479637
 
-Where you are an EU consumer, you also benefit from the statutory right of withdrawal for digital content purchases under Slovenian and EU law, except where you have expressly consented to immediate provision of the digital content and acknowledged that you thereby lose the right of withdrawal — which happens automatically when you tap "Buy" and the purchase completes.
+Where you are an EU consumer, you also benefit from the statutory right of withdrawal for digital content purchases under Slovenian and EU law, except where you have expressly consented to immediate provision of the digital content and acknowledged that you thereby lose the right of withdrawal, which happens automatically when you tap "Buy" and the purchase completes.
 
 ## 6. Your content
 
