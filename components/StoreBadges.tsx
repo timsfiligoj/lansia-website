@@ -22,7 +22,7 @@ export function StoreBadges({ size = "md" }: { size?: Size }) {
   const showGoogle = platform !== "ios";
 
   return (
-    <div className="flex flex-wrap items-center gap-3">
+    <div className="flex flex-wrap items-center justify-center gap-3 sm:justify-start">
       {showApple && (
         <a
           href="https://apps.apple.com/us/app/lansia/id6763288204"
