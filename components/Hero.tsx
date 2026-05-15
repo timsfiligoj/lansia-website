@@ -6,7 +6,7 @@ export function Hero() {
     <section className="bg-hero-glow relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 [background:radial-gradient(ellipse_at_top,rgba(121,53,238,0.18),transparent_55%)]" />
 
-      <div className="relative mx-auto max-w-6xl px-6 pb-12 pt-8 sm:px-10 sm:pb-20 sm:pt-12 md:grid md:grid-cols-2 md:items-center md:gap-16 md:pb-32 md:pt-20">
+      <div className="relative mx-auto max-w-6xl px-6 pb-12 pt-24 sm:px-10 sm:pb-20 sm:pt-28 md:grid md:grid-cols-2 md:items-center md:gap-16 md:pb-32 md:pt-32">
         {/* Text + CTAs: top on mobile, left on desktop */}
         <div className="text-center sm:text-left md:order-1">
           <h1 className="font-[family-name:var(--font-kanit)] text-[2.5rem] leading-[1.05] text-white sm:text-6xl md:text-7xl">
