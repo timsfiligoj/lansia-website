@@ -18,6 +18,12 @@ export function NavBar() {
             Features
           </a>
           <a
+            href="#reviews"
+            className="hidden text-[rgba(255,255,255,0.7)] transition hover:text-white sm:block"
+          >
+            Reviews
+          </a>
+          <a
             href="#pricing"
             className="hidden text-[rgba(255,255,255,0.7)] transition hover:text-white sm:block"
           >

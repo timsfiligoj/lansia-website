@@ -10,8 +10,7 @@ export function Footer() {
               Lansia
             </div>
             <p className="mt-3 max-w-xs text-sm text-[rgba(255,255,255,0.55)]">
-              Daily goals. Real progress. Built in Slovenia by one person who
-              has journaled their daily goals every day for years.
+              Small wins, every day.
             </p>
           </div>
 
@@ -26,6 +25,14 @@ export function Footer() {
                   className="transition hover:text-white"
                 >
                   Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#reviews"
+                  className="transition hover:text-white"
+                >
+                  Reviews
                 </a>
               </li>
               <li>
@@ -70,8 +77,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/8 pt-8 text-xs text-[rgba(255,255,255,0.4)] sm:flex-row sm:items-center">
-          <div>&copy; {new Date().getFullYear()} Lansia</div>
-          <div>Made in Slovenia 🇸🇮</div>
+          <div>&copy; 2026 Lansia</div>
         </div>
       </div>
     </footer>

@@ -15,12 +15,12 @@ const FEATURES: Feature[] = [
   {
     badge: "Tasks",
     emoji: "✨",
-    title: "Plan your day with purpose",
-    body: "Write up to five goals every morning (or the night before). Tap to mark them done. Swipe to mark missed. That's the whole app. A daily ritual simple enough to actually keep.",
+    title: "Write tomorrow's list, tonight.",
+    body: "Write tomorrow's plan tonight, or first thing in the morning. Up to five tasks. Tap to mark done. Swipe to mark missed. That's the whole app. A daily ritual simple enough to actually keep.",
     visual: (
       <PhoneMockup
-        src="/screenshots/feature-task.jpg"
-        alt="Today's goals with a mix of completed and pending items"
+        src="/screenshots/feature-task-2.PNG"
+        alt="Today's tasks with completed, pending, and missed items"
         className="w-full max-w-[210px] sm:max-w-[280px]"
       />
     ),
@@ -28,8 +28,8 @@ const FEATURES: Feature[] = [
   {
     badge: "Stats",
     emoji: "📊",
-    title: "See the story behind your days",
-    body: "Streaks, perfect weeks, weekly rhythm heatmap, year-at-a-glance, consistency, comeback rate, week-over-week. Your habits become proof of progress.",
+    title: "The patterns behind your best days.",
+    body: "Streaks, perfect weeks, weekly heatmap, year-at-a-glance, strongest day, success rate. Your record, surfaced quietly. Not a leaderboard, not a guilt trip.",
     reverse: true,
     visual: (
       <PhoneMockup
@@ -43,15 +43,15 @@ const FEATURES: Feature[] = [
   {
     badge: "Milestones",
     emoji: "💜",
-    title: "Small wins, earned",
-    body: "First goal. 7-day streak. Perfect week. 30 goals. 100 goals. Every unlock arrives quietly, without gamification. The progress itself is the reward.",
+    title: "Small wins, earned.",
+    body: "First goal. 7-day streak. 14-day streak. Perfect week. 30 goals. 100 goals. Six quiet milestones. Earned once, kept forever, even if your streak slips.",
     visual: <MilestonesVisual />,
   },
   {
     badge: "Daily Boost",
     emoji: "🔥",
-    title: "A quote to start with",
-    body: "A fresh, hand-picked motivational quote every morning. No ads, no notifications screaming at you. Just one line that nudges you to show up.",
+    title: "One line, every morning.",
+    body: "One hand-picked quote, every morning. No ads, no notifications screaming. Just one line that nudges you to show up.",
     reverse: true,
     visual: (
       <PhoneMockup
@@ -79,6 +79,10 @@ export function Features() {
               not to grind.
             </span>
           </h2>
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-[rgba(255,255,255,0.7)] sm:text-xl">
+            No yearly goals. No habit chains. Just tomorrow's list, written
+            tonight.
+          </p>
         </div>
 
         <div className="space-y-24 md:space-y-32">

@@ -1,0 +1,62 @@
+# Lansia
+
+> A calm daily plan in five tasks or less. Plan tonight, do tomorrow. A habit tracker for people who hate habit trackers.
+
+## What Lansia is
+
+Lansia is a mobile app for iOS and Android that helps you keep a short daily plan. Every evening (or first thing in the morning), you write up to five tasks for the next day. You tap to mark done, swipe to mark missed. Over time, Lansia surfaces patterns: streaks, perfect weeks, your strongest day, your success rate.
+
+Lansia is intentionally minimal. There are no yearly goals, no habit chains, no system to set up, no leaderboard, and no notifications screaming at you. The cap of five tasks is the feature.
+
+## Pricing
+
+- **Lansia Free**: three goals a day, today and tomorrow view, evening reminder, basic stats. Free forever, no card required.
+- **Lansia Lifetime**: a one-time purchase of $4.99. Unlocks five goals a day, full history, full stats dashboard, weekly and yearly heatmaps, streaks, perfect weeks, strongest day, and quiet milestones.
+
+There is no subscription. There are no renewals. Pay once, keep it forever on any device signed into the same App Store or Google Play account. Final price set at launch; App Store and Google Play handle local currency.
+
+## Platforms
+
+- iOS: https://apps.apple.com/us/app/lansia/id6763288204
+- Android: https://play.google.com/store/apps/details?id=app.lansia
+- Website: https://lansia.app
+
+## Founder
+
+Lansia is designed, built, and shipped in Slovenia by Tim. Before Lansia was an app, it was a spreadsheet Tim kept for five years: every evening, two to five tasks for the next day. No tagging, no prioritization framework, no monthly review. Just tomorrow's list, tonight.
+
+## How Lansia differs from a habit tracker
+
+Traditional habit trackers ask you to commit to the same actions forever and punish you for breaking the streak. Lansia is a daily plan: fresh tasks every day, no long-term contracts with yourself, no chain to break. The habit being tracked is the meta-habit of showing up with a small plan and following through.
+
+Lansia tracks a comeback rate, not just a completion rate. A week with three good days and two off days is still a good week.
+
+## Privacy
+
+Lansia does not sell user data, run ads, or use task content to train AI. Users can delete their account from inside the app at any time.
+
+- Privacy policy: https://lansia.app/privacy
+- Terms of service: https://lansia.app/terms
+- Support: https://lansia.app/support
+- Account deletion: https://lansia.app/delete-account
+
+## Common questions
+
+### What is Lansia?
+A daily plan you actually keep. Every evening, you write up to five tasks for the day ahead. Tap to mark done, swipe to mark missed. Over time the app shows you the patterns of when you show up and what kind of days work best for you.
+
+### Why a five-task limit?
+Because real focus has a limit. When a system lets you list everything, you list everything and finish nothing. Two is fine, three is the sweet spot, five is the ceiling.
+
+### Is it really a one-time purchase?
+Yes. No subscription, no renewals, no surprise charges six months later. $4.99 once, on any device signed into the same App Store or Google Play account.
+
+### Does Lansia sell my data?
+No. No data selling, no ads, no AI training on user goals.
+
+## Brand
+
+- Name: Lansia (never "Motiv8" — that's a legacy name)
+- Promise: Small wins, every day.
+- Founder: Tim
+- Built in: Slovenia

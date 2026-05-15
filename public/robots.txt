@@ -27,4 +27,5 @@ Allow: /
 User-agent: TelegramBot
 Allow: /
 
+Sitemap: https://lansia.app/sitemap.xml
 Host: https://lansia.app

@@ -10,15 +10,14 @@ export function Hero() {
         {/* Text + CTAs: top on mobile, left on desktop */}
         <div className="text-center sm:text-left md:order-1">
           <h1 className="font-[family-name:var(--font-kanit)] text-[2.5rem] leading-[1.05] text-white sm:text-6xl md:text-7xl">
-            Power up
+            Small wins,
             <br />
-            <span className="text-[color:var(--color-lilac)]">your day.</span>
+            <span className="text-[color:var(--color-lilac)]">every day.</span>
           </h1>
 
           <p className="mx-auto mt-4 max-w-md text-[15px] leading-snug text-[rgba(255,255,255,0.75)] sm:mx-0 sm:mt-6 sm:max-w-xl sm:text-lg sm:leading-relaxed">
-            Five goals a day. One simple ritual. Lansia turns your daily
-            checkmarks into the story of who you actually are. Streaks,
-            perfect weeks, and the patterns behind your best days.
+            The daily plan that compounds. Up to five tasks for tomorrow,
+            written tonight.
           </p>
 
           <div className="mt-6 sm:mt-8">

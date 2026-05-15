@@ -1,39 +1,10 @@
 "use client";
 
 import { useState } from "react";
-
-const FAQS = [
-  {
-    q: "What is Lansia?",
-    a: "Lansia is a mobile app that keeps you focused on up to five daily goals. Mark them done as you go, see missed ones, and watch the patterns behind your best days emerge over time.",
-  },
-  {
-    q: "Why five goals, not fifty?",
-    a: "Because real focus has a limit. When you can pick anything, you pick everything, and finish nothing. The cap is the feature.",
-  },
-  {
-    q: "What should my goals look like?",
-    a: "Anything from “Go for a 10-minute walk” to “Finish the first draft of my book.” You're in control. The only rule is that the goal motivates you to move.",
-  },
-  {
-    q: "What if I don't complete a task?",
-    a: "Nobody's perfect. Missed goals are a normal part of the week. Lansia tracks your bounce-back rate so you can see how quickly you recover, not just how often you hit 100%.",
-  },
-  {
-    q: "Is Lansia free?",
-    a: "Yes. The free tier gives you three goals a day, today + tomorrow view, and an evening reminder. Lansia Lifetime is a one-time purchase that unlocks five goals a day, the full stats dashboard, and all-time history.",
-  },
-  {
-    q: "Is it really a one-time purchase?",
-    a: "Yes. No subscriptions, no renewals, no surprise charges. Buy once, keep it forever on any device signed into the same App Store or Google Play account.",
-  },
-  {
-    q: "Does Lansia sell my data?",
-    a: "No. We don't sell data, we don't run ads, we don't use your goals to train AI. Your data is yours and you can delete your account from inside the app at any time.",
-  },
-];
+import { FAQS } from "@/lib/faqs";
 
 export function FAQ() {
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
   return (
     <section className="py-20 md:py-28">
       <div className="mx-auto max-w-3xl px-6 sm:px-10">
@@ -44,7 +15,12 @@ export function FAQ() {
         </div>
         <ul className="divide-y divide-white/8 rounded-2xl border border-white/8 bg-white/[0.03]">
           {FAQS.map((item, i) => (
-            <FaqItem key={item.q} {...item} defaultOpen={i === 0} />
+            <FaqItem
+              key={item.q}
+              {...item}
+              open={openIndex === i}
+              onToggle={() => setOpenIndex((prev) => (prev === i ? null : i))}
+            />
           ))}
         </ul>
       </div>
@@ -55,17 +31,18 @@ export function FAQ() {
 function FaqItem({
   q,
   a,
-  defaultOpen = false,
+  open,
+  onToggle,
 }: {
   q: string;
   a: string;
-  defaultOpen?: boolean;
+  open: boolean;
+  onToggle: () => void;
 }) {
-  const [open, setOpen] = useState(defaultOpen);
   return (
     <li>
       <button
-        onClick={() => setOpen((v) => !v)}
+        onClick={onToggle}
         className="flex w-full items-center justify-between gap-6 px-6 py-5 text-left transition hover:bg-white/[0.02]"
         aria-expanded={open}
       >

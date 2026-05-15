@@ -1,18 +1,18 @@
 const FREE_INCLUDES = [
   "Three goals a day",
-  "Today + tomorrow view",
-  "Evening reminder",
-  "All your data, yours",
+  "Today and tomorrow view",
+  "Evening reminder to plan tomorrow",
+  "Basic stats",
 ];
 
 const PRO_INCLUDES = [
-  "Everything free, plus",
+  "Everything in Free",
   "Five goals a day",
-  "Full history across all time",
+  "Full history",
   "Full stats dashboard",
-  "Heatmaps, streaks, perfect weeks",
-  "Consistency + comeback rate",
-  "Milestone achievements",
+  "Weekly and yearly heatmaps",
+  "Streaks, perfect weeks, strongest day",
+  "Quiet milestones",
 ];
 
 export function Pricing() {
@@ -31,8 +31,7 @@ export function Pricing() {
             <span className="text-[color:var(--color-lilac)]">Yours forever.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg text-[rgba(255,255,255,0.7)]">
-            No subscriptions. No renewals. No &ldquo;you&apos;ve been
-            billed&rdquo; emails six months later.
+            {'No subscriptions. No renewals. No "you\'ve been billed" emails six months later.'}
           </p>
         </div>
 
@@ -60,22 +59,19 @@ export function Pricing() {
           </div>
 
           {/* Lifetime tier */}
-          <div className="relative overflow-hidden rounded-3xl border border-[rgba(206,149,249,0.35)] bg-gradient-to-br from-[rgba(121,53,238,0.2)] via-[rgba(121,53,238,0.1)] to-transparent p-8 md:p-10">
+          <div className="relative overflow-hidden rounded-3xl border border-[rgba(206,149,249,0.55)] bg-gradient-to-br from-[rgba(121,53,238,0.28)] via-[rgba(121,53,238,0.12)] to-transparent p-8 shadow-[0_0_0_1px_rgba(206,149,249,0.12)] md:p-10">
             <div className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-[rgba(121,53,238,0.25)] blur-3xl" />
             <div className="relative">
-              <div className="mb-2 flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-[color:var(--color-lilac)]">
+              <div className="mb-2 text-xs font-medium uppercase tracking-wide text-[color:var(--color-lilac)]">
                 Lansia Lifetime
-                <span className="rounded-full bg-[rgba(206,149,249,0.2)] px-2 py-0.5 text-[10px]">
-                  Most popular
-                </span>
               </div>
               <div className="mb-1 flex items-baseline gap-2">
                 <div className="font-[family-name:var(--font-kanit)] text-4xl text-white">
-                  One-time
+                  $4.99
                 </div>
               </div>
               <div className="mb-8 text-sm text-[rgba(255,255,255,0.7)]">
-                Final price set at launch. No subscription, ever.
+                One-time. No subscription, ever.
               </div>
 
               <ul className="space-y-3">
