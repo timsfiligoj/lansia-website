@@ -31,7 +31,7 @@ export function NavBar() {
           </a>
           <a
             href="#download"
-            className="rounded-full border border-[rgba(206,149,249,0.32)] bg-[rgba(157,80,235,0.12)] px-4 py-2 font-medium text-[color:var(--color-lilac)] transition hover:border-[rgba(206,149,249,0.5)] hover:bg-[rgba(157,80,235,0.2)]"
+            className="rounded-full border border-[rgba(206,149,249,0.32)] px-4 py-2 font-medium text-[color:var(--color-lilac)] transition hover:border-[rgba(206,149,249,0.6)] hover:text-white"
           >
             Download
           </a>
