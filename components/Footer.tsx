@@ -4,7 +4,7 @@ export function Footer() {
   return (
     <footer className="border-t border-white/8 py-14">
       <div className="mx-auto max-w-6xl px-6 sm:px-10">
-        <div className="grid gap-10 md:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-4">
           <div>
             <div className="font-[family-name:var(--font-kanit)] text-2xl font-medium text-white">
               Lansia
@@ -50,6 +50,19 @@ export function Footer() {
                 >
                   Download
                 </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div className="mb-3 text-xs font-medium uppercase tracking-wide text-[rgba(255,255,255,0.5)]">
+              Read
+            </div>
+            <ul className="space-y-2 text-sm text-white/80">
+              <li>
+                <Link href="/blog" className="transition hover:text-white">
+                  Blog
+                </Link>
               </li>
             </ul>
           </div>

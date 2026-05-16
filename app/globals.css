@@ -139,6 +139,43 @@ html {
   border-radius: 0.25rem;
 }
 
+/* Blog-only refinements layered on top of .prose-lansia */
+.prose-blog {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.82);
+}
+.prose-blog p {
+  margin: 1.1rem 0;
+}
+/* Lede: opening paragraph reads larger and slightly brighter */
+.prose-blog > p:first-of-type {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.92);
+  margin-top: 0;
+}
+/* "Read next" italic line — the final styled callout */
+.prose-blog p:has(> em > a[href^="/blog/"]) em,
+.prose-blog em:has(> a[href^="/blog/"]) {
+  display: block;
+  font-style: normal;
+  margin-top: 2.5rem;
+  padding: 1.5rem 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(206, 149, 249, 0.18);
+  background: rgba(206, 149, 249, 0.05);
+  font-family: var(--font-kanit);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.82);
+}
+.prose-blog em:has(> a[href^="/blog/"]) a {
+  color: var(--color-lilac);
+  font-weight: 500;
+}
+
 /* Background gradients used on sections */
 .bg-hero-glow {
   background:
